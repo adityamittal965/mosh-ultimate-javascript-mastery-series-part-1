@@ -28,7 +28,7 @@ console.log(y); // It returns 10.
 //Primitives are independent, the value is stored inside of the variable.
 
 let xObj = {value: 10};
-let yObj = x;
+let yObj = xObj;
 
 x.value = 20;
 
