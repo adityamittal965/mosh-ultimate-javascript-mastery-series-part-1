@@ -30,7 +30,7 @@ console.log(y); // It returns 10.
 let xObj = {value: 10};
 let yObj = xObj;
 
-x.value = 20;
+xObj.value = 20;
 
 console.log(yObj); // It return 20.
 // In using object they are not stored in the variable. They are stored somewhere in the memory, and the address (or the reference) of that place in memory is store in the variable.
