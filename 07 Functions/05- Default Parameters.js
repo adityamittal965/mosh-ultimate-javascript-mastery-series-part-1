@@ -22,7 +22,7 @@ console.log(interests(10000, 3.5, 5));
 
 
 // If we want to have default value for interest rate and years
-function interests1(principal, rate = 3.5, years = 5) {
+function interests1(principal, rate, years) {
   rate = rate || 3.5 // We could user the or operator 
   year = year || 5
   return ((principal * rate) / 100) * years;
