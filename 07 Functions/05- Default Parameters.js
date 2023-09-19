@@ -35,7 +35,7 @@ function interestsDefault(principal, rate = 3.5, years = 5) {
   return ((principal * rate) / 100) * years;
 }
 
-console.log(interestsDefault(10000, 3.5, 5));
+console.log(interestsDefault(10000));
 
 // Once we give a paramter a default value, all the following parameters should also have a default value.
 
