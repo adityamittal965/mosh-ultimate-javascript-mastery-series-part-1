@@ -32,7 +32,7 @@ let yObj = xObj;
 
 xObj.value = 20;
 
-console.log(yObj); // It return 20.
+console.log(yObj.value); // It return 20.
 // In using object they are not stored in the variable. They are stored somewhere in the memory, and the address (or the reference) of that place in memory is store in the variable.
 
 // Primitives are copied by their value.
